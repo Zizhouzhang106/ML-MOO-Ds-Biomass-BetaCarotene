@@ -1,6 +1,7 @@
 # ML-MOO-Ds-Biomass-BetaCarotene
 Code for Machine learning-driven multi-objective optimization of Dunaliella salina cultivation for enhanced biomass and β-carotene production
 Machine learning-driven multi-objective optimization of Dunaliella salina cultivation for enhanced biomass and β-carotene production
+
 一、项目概述
 本项目针对杜氏盐藻（Dunaliella salina）生物量（干重，DCW）与β - 胡萝卜素产量的协同优化问题，构建了“超参数优化→单目标预测→多目标优化→SHAP可解释性分析”的完整机器学习框架。通过系统优化随机森林（RF）、极端梯度提升（XGBoost）、梯度提升决策树（GBDT）和人工神经网络（ANN）四大算法，实现了对盐藻培养关键指标的高精度预测，结合多目标粒子群优化（MOPSO）生成实用培养策略，并通过SHAP分析揭示特征影响机制，最终可提升生物量和β - 胡萝卜素产量，为微藻工业化生产提供数据驱动解决方案。
 二、核心流程与关键模块
